@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     private int _eventDid = 0;
     private GameObject _eventDidDraw;
     private Text _eventDidDrawText;
+    private GameObject _endTrigger;
     
     void Start()
     {
@@ -25,6 +26,8 @@ public class GameManager : MonoBehaviour
             _eventDidDraw = GameObject.FindGameObjectWithTag("TextEvent");
             _eventDidDrawText = _eventDidDraw.GetComponent<Text>();
             _eventDidDraw.SetActive(false);
+            _endTrigger = GameObject.FindGameObjectWithTag("EndTrigger");
+            _endTrigger.SetActive(false);
         }
         else
         {
@@ -38,10 +41,26 @@ public class GameManager : MonoBehaviour
     {
         _eventDid++;
         _eventDidDraw.SetActive(true);
-        _eventDidDrawText.text = ("You found " + _eventDid +" events out of 20");
-        yield return new WaitForSeconds(3f);
-        _eventDidDraw.SetActive(false);
-        yield return 0;
+        if (_eventDid < 20)
+        {
+            _eventDidDrawText.text = ("You found " + _eventDid + " events out of 20");
+        }
+        if (_eventDid == 20)
+        {
+            _eventDidDrawText.text = ("You found all the events, return to the center");
+        }
+
+        if (_eventDid <= 20)
+        {
+            if (_eventDid == 20)
+            {
+                _endTrigger.SetActive(true);
+            }
+            yield return new WaitForSeconds(3f);
+            _eventDidDraw.SetActive(false);
+            yield return 0;
+            
+        }
     }
 
     public void Coroutine()
