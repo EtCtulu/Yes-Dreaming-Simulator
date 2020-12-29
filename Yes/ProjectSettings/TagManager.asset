@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Press E
+  - TextEvent
   layers:
   - Default
   - TransparentFX

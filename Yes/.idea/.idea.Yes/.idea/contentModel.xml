@@ -21,6 +21,7 @@
           <e p="README.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="GameManager.cs" t="Include" />
           <e p="OnButtonPressTP.cs" t="Include" />
           <e p="OnHoverTP.cs" t="Include" />
         </e>
