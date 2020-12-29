@@ -6,12 +6,10 @@ TagManager:
   tags:
   - Press E
   - TextEvent
-<<<<<<< Updated upstream
-  - EndTrigger
-=======
-  - Target
   - Target1
->>>>>>> Stashed changes
+  - Target2
+  - Target3
+  - Target
   layers:
   - Default
   - TransparentFX
@@ -21,7 +19,7 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
+  - 
   - 
   - 
   - 
