@@ -8,6 +8,7 @@ public class TPBed : MonoBehaviour
 {
     public GameObject sleepCamera;
     public GameObject player;
+    public int sceneNumber = 2;
 
     private bool _isInside;
     private GameObject _pressEText;
@@ -46,6 +47,6 @@ public class TPBed : MonoBehaviour
     private IEnumerator tp()
     {
         yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(sceneNumber);
     }
 }

@@ -20,14 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="928f89af-5f21-4a90-b5fd-b656c9bf7297" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yes/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yes/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FirstPerson-AIO.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FirstPerson-AIO.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Lit/Camera.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Lit/Camera.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Bedroom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Bedroom.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Travail_Emilien.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Travail_Emilien.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TPBed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TPBed.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +52,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OnMouseHoverText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventActivator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TPBed.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pausemenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TPBed.cs" />
       </list>
     </option>
   </component>
