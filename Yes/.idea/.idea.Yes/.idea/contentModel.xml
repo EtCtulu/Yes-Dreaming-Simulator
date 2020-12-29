@@ -27,6 +27,8 @@
           <e p="OnButtonPressTP.cs" t="Include" />
           <e p="OnHoverTP.cs" t="Include" />
           <e p="OnMouseHoverText.cs" t="Include" />
+          <e p="Pausemenu.cs" t="Include" />
+          <e p="TPBed.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
@@ -58,6 +60,21 @@
           <e p="Sprites" t="Include">
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
+        </e>
+        <e p="Travail_Noah" t="Include">
+          <e p="avion" t="Include">
+            <e p="BackgroundRest.cs" t="Include" />
+            <e p="Movement.cs" t="Include" />
+            <e p="Mover.cs" t="Include" />
+            <e p="Rotate.cs" t="Include" />
+            <e p="Wing.cs" t="Include" />
+          </e>
+          <e p="Cubes" t="Include">
+            <e p="test.cs" t="Include" />
+          </e>
+          <e p="MovingItem.cs" t="Include" />
+          <e p="Puzzle.cs" t="Include" />
+          <e p="PuzzleManager.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

@@ -8,6 +8,8 @@ public class EventActivator : MonoBehaviour
 
     public GameObject theEvent;
     
+    
+    
     private void OnTriggerEnter(Collider other)
     {
         theEvent.SetActive(true);
