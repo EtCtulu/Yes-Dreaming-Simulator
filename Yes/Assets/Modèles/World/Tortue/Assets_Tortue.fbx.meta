@@ -3,7 +3,12 @@ guid: a12832f738c687d459da6277f54c2774
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 15 - Glossy Plastic
+    second: {fileID: 2100000, guid: 0fdeefe39c2ead84c8f0e0ca3e04082f, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
