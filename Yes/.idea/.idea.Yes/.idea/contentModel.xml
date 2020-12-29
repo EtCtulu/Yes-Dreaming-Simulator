@@ -21,6 +21,7 @@
           <e p="README.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="EnemyLookAtPlayer.cs" t="Include" />
           <e p="EventActivator.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="JumpscareHandler.cs" t="Include" />
@@ -77,6 +78,7 @@
             <e p="MovingItem.cs" t="Include" />
             <e p="Puzzle.cs" t="Include" />
             <e p="PuzzleManager.cs" t="Include" />
+            <e p="StartEventBird.cs" t="Include" />
           </e>
         </e>
       </e>
