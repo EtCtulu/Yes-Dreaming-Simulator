@@ -9,13 +9,13 @@ public class TPBed : MonoBehaviour
     public GameObject sleepCamera;
     public GameObject player;
     public int sceneNumber = 2;
+    
 
     private bool _isInside;
-    private GameObject _pressEText;
+    public GameObject _pressEText;
 
     private void Start()
     {
-        _pressEText = GameObject.FindGameObjectWithTag("Press E");
         _pressEText.SetActive(false);
     }
     

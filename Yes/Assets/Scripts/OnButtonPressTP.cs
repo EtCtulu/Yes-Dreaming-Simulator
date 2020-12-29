@@ -9,12 +9,12 @@ public class OnButtonPressTP : MonoBehaviour
     public Transform tpPoint;
 
     private Transform playerTransform;
-    private GameObject _pressEText;
+    public GameObject _pressEText;
     private bool _isInside = false;
 
     private void Start()
     {
-        _pressEText = GameObject.FindGameObjectWithTag("Press E");
+        
         _pressEText.SetActive(false);
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
         
