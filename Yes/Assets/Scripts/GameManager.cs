@@ -9,7 +9,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     
-    private static GameManager _instance;
+    public static GameManager _instance;
 
     private int _eventDid = 0;
     private GameObject _eventDidDraw;
@@ -32,15 +32,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            StartCoroutine(OnEventActivate());
-        }
-    }
 
-    public IEnumerator OnEventActivate()
+
+    private IEnumerator OnEventActivate()
     {
         _eventDid++;
         _eventDidDraw.SetActive(true);
@@ -48,6 +42,11 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(3f);
         _eventDidDraw.SetActive(false);
         yield return 0;
+    }
+
+    public void Coroutine()
+    {
+        StartCoroutine(OnEventActivate());
     }
     
 }
