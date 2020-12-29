@@ -20,10 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="928f89af-5f21-4a90-b5fd-b656c9bf7297" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yes/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yes/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcess/MenuMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PostProcess/MenuMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modèles/Bedroom/Lampe/Lampe 2.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modèles/Bedroom/Lampe/Lampe 2.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modèles/Bedroom/Lit/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modèles/Bedroom/Lit/New Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modèles/Bedroom/Mur 1/Mur 1 biff.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modèles/Bedroom/Mur 1/Mur 1 biff.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modèles/Bedroom/Mur 1/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modèles/Bedroom/Mur 1/New Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modèles/Bedroom/Mur 2/Mur 2 bis.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modèles/Bedroom/Mur 2/Mur 2 bis.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modèles/Bedroom/Mur 2/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modèles/Bedroom/Mur 2/New Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modèles/Bedroom/Ours/Ours.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modèles/Bedroom/Ours/Ours.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modèles/World/Singe/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modèles/World/Singe/New Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FirstPerson-AIO.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FirstPerson-AIO.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventActivator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EventActivator.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +42,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnButtonPressTP.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TPBed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnMouseHoverText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventActivator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -45,10 +52,11 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/OnHoverTP.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OnButtonPressTP.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EventActivator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OnMouseHoverText.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventActivator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TPBed.cs" />
       </list>
     </option>
   </component>
