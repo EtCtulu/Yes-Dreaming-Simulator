@@ -19,8 +19,7 @@ public class PuzzleManager : MonoBehaviour
         {
             if (!end &&Blocks[0].GetComponent<Puzzle>().end && Blocks[1].GetComponent<Puzzle>().end)
             {
-                //compte un point
-                Debug.Log("event over");
+                GameManager._instance.Coroutine();
                 end = true;
             }
         }
@@ -28,9 +27,9 @@ public class PuzzleManager : MonoBehaviour
         {
             if (!end &&Blocks[0].GetComponent<Puzzle>().end && Blocks[1].GetComponent<Puzzle>().end && Blocks[2].GetComponent<Puzzle>().end)
             {
-                //coroutine
+                GameManager._instance.Coroutine();
                 end = true;
-                Debug.Log("event added");
+                
             }
         }
         

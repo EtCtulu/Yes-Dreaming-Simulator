@@ -17,14 +17,17 @@ public class MovingItem : MonoBehaviour
     {  
         if (index==4)
         {
-                Debug.Log("event added");
+           
+            Debug.Log("event added");
             Destroy(this.gameObject);
+            GameManager._instance.Coroutine();
         }
         this.transform.position = positions[index].transform.position;
         
     }
     private void OnCollisionEnter(Collision collision)
     {
+        if (collision.gameObject.tag!=null && collision.gameObject.tag=="Player")
         index += 1;
     }
 }
