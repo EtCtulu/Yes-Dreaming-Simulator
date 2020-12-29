@@ -21,6 +21,8 @@
           <e p="README.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="ActivateTrigger.cs" t="Include" />
+          <e p="AudioManager.cs" t="Include" />
           <e p="EnemyLookAtPlayer.cs" t="Include" />
           <e p="EventActivator.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
@@ -30,6 +32,7 @@
           <e p="OnHoverTP.cs" t="Include" />
           <e p="OnMouseHoverText.cs" t="Include" />
           <e p="Pausemenu.cs" t="Include" />
+          <e p="Sound.cs" t="Include" />
           <e p="TPBed.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
