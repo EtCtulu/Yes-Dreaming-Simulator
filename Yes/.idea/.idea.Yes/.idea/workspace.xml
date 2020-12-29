@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="928f89af-5f21-4a90-b5fd-b656c9bf7297" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Lit/Camera.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Lit/Camera.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Bedroom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Bedroom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Travail_Emilien.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Travail_Emilien.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TPBed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TPBed.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modèles/World/Camion/Assets_Camion.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modèles/World/Camion/Assets_Camion.fbx.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +32,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpscareHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnButtonPressTP.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TPBed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnMouseHoverText.cs" root0="FORCE_HIGHLIGHTING" />
@@ -54,6 +51,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EventActivator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pausemenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TPBed.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/JumpscareHandler.cs" />
       </list>
     </option>
   </component>

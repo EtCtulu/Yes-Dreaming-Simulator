@@ -23,6 +23,7 @@
         <e p="Scripts" t="Include">
           <e p="EventActivator.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
+          <e p="JumpscareHandler.cs" t="Include" />
           <e p="MenuManager.cs" t="Include" />
           <e p="OnButtonPressTP.cs" t="Include" />
           <e p="OnHoverTP.cs" t="Include" />
@@ -72,9 +73,11 @@
           <e p="Cubes" t="Include">
             <e p="test.cs" t="Include" />
           </e>
-          <e p="MovingItem.cs" t="Include" />
-          <e p="Puzzle.cs" t="Include" />
-          <e p="PuzzleManager.cs" t="Include" />
+          <e p="script" t="Include">
+            <e p="MovingItem.cs" t="Include" />
+            <e p="Puzzle.cs" t="Include" />
+            <e p="PuzzleManager.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
