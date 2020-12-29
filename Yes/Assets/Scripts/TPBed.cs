@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TPBed : MonoBehaviour
 {
@@ -25,6 +26,7 @@ public class TPBed : MonoBehaviour
             {
                 Destroy(player);
                 sleepCamera.SetActive(true);
+                StartCoroutine(tp());
             }
         }
     }
@@ -39,5 +41,11 @@ public class TPBed : MonoBehaviour
     {
         _isInside = false;
         _pressEText.SetActive(false);
+    }
+
+    private IEnumerator tp()
+    {
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene(2);
     }
 }

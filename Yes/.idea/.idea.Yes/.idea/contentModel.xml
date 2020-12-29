@@ -27,6 +27,7 @@
           <e p="OnButtonPressTP.cs" t="Include" />
           <e p="OnHoverTP.cs" t="Include" />
           <e p="OnMouseHoverText.cs" t="Include" />
+          <e p="Pausemenu.cs" t="Include" />
           <e p="TPBed.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
