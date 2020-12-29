@@ -6,7 +6,12 @@ TagManager:
   tags:
   - Press E
   - TextEvent
+<<<<<<< Updated upstream
   - EndTrigger
+=======
+  - Target
+  - Target1
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
