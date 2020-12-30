@@ -15,7 +15,7 @@ public class MovingItem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {  
-        if (index==4)
+        if (index==positions.Count)
         {
            
             Debug.Log("event added");
