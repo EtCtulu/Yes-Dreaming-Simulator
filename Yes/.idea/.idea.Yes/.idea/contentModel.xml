@@ -82,6 +82,7 @@
             <e p="Puzzle.cs" t="Include" />
             <e p="PuzzleManager.cs" t="Include" />
             <e p="StartEventBird.cs" t="Include" />
+            <e p="StartEventTruck.cs" t="Include" />
           </e>
         </e>
       </e>

@@ -39,18 +39,18 @@ public class GameManager : MonoBehaviour
     {
         _eventDid++;
         _eventDidDraw.SetActive(true);
-        if (_eventDid < 20)
+        if (_eventDid < 15)
         {
-            _eventDidDrawText.text = ("You found " + _eventDid + " events out of 20");
+            _eventDidDrawText.text = ("You found " + _eventDid + " events out of 16");
         }
-        if (_eventDid == 20)
+        if (_eventDid == 16)
         {
             _eventDidDrawText.text = ("You found all the events, return to the center");
         }
 
-        if (_eventDid <= 20)
+        if (_eventDid <= 16)
         {
-            if (_eventDid == 20)
+            if (_eventDid == 16)
             {
                 _endTrigger.SetActive(true);
             }
@@ -60,6 +60,9 @@ public class GameManager : MonoBehaviour
             
         }
     }
+    
+    
+
 
     public void Coroutine()
     {

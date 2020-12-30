@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="928f89af-5f21-4a90-b5fd-b656c9bf7297" name="Default Changelist" comment="" />
+    <list default="true" id="928f89af-5f21-4a90-b5fd-b656c9bf7297" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,10 +51,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EventActivator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pausemenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JumpscareHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TPBed.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OnButtonPressTP.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ActivateTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
