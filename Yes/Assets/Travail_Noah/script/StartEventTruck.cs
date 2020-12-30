@@ -21,9 +21,11 @@ public class StartEventTruck : MonoBehaviour
         {
             timer += Time.deltaTime;
             if (timer >= 4)
-            {   
-                Destroy(this.gameObject);
+            {
+                GameManager._instance.Coroutine();
+                this.gameObject.SetActive(false);
                 Destroy(truck);
+                Destroy(this.gameObject);
             }
                 
         }
@@ -33,6 +35,8 @@ public class StartEventTruck : MonoBehaviour
         if (other.tag!=null && other.tag == "Player")
         {
             fun.Play();
+            this.gameObject.GetComponent<MeshRenderer>().enabled = false;
+            this.GetComponent<BoxCollider>().enabled = false;
             truck.SetActive(true);
             end = true;
         }
