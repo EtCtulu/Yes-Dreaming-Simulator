@@ -99541,6 +99541,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6509686322825429672, guid: d64f4ba390758c24483f9944fe62563e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9782dcdd77a45940bd49a1723956bb0, type: 2}
+    - target: {fileID: 6509686322841562307, guid: d64f4ba390758c24483f9944fe62563e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9782dcdd77a45940bd49a1723956bb0, type: 2}
     - target: {fileID: 6509686322866051060, guid: d64f4ba390758c24483f9944fe62563e,
         type: 3}
       propertyPath: m_Name
@@ -99601,6 +99611,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6509686323293751654, guid: d64f4ba390758c24483f9944fe62563e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9782dcdd77a45940bd49a1723956bb0, type: 2}
+    - target: {fileID: 6509686323349416434, guid: d64f4ba390758c24483f9944fe62563e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9782dcdd77a45940bd49a1723956bb0, type: 2}
+    - target: {fileID: 6509686323863940845, guid: d64f4ba390758c24483f9944fe62563e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9782dcdd77a45940bd49a1723956bb0, type: 2}
+    - target: {fileID: 6509686324110234702, guid: d64f4ba390758c24483f9944fe62563e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9782dcdd77a45940bd49a1723956bb0, type: 2}
     - target: {fileID: 6509686324669125229, guid: d64f4ba390758c24483f9944fe62563e,
         type: 3}
       propertyPath: player
