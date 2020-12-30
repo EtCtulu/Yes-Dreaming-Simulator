@@ -22,6 +22,7 @@ public class StartEventBird : MonoBehaviour
             if (timer >= 5)
             {
                 Destroy(bird);
+                Destroy(this.gameObject);
             }
         }
     }
@@ -31,6 +32,8 @@ public class StartEventBird : MonoBehaviour
         {
             end = true;
             bird.SetActive(true);
+            this.gameObject.GetComponent<MeshRenderer>().enabled = false;
+            this.GetComponent<BoxCollider>().enabled = false;
             GameManager._instance.Coroutine();
         }
     }
