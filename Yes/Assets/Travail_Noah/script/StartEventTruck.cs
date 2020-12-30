@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StartEventBird : MonoBehaviour
+public class StartEventTruck : MonoBehaviour
 {
-    public GameObject bird;
-    public bool end=false;
-    public float timer=0f;
+    public GameObject truck;
+    public AudioSource fun;
+    public bool end = false;
+    public float timer = 0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,19 +20,21 @@ public class StartEventBird : MonoBehaviour
         if (end)
         {
             timer += Time.deltaTime;
-            if (timer >= 5)
-            {
-                Destroy(bird);
+            if (timer >= 4)
+            {   
+                Destroy(this.gameObject);
+                Destroy(truck);
             }
+                
         }
     }
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag!=null && other.tag == "Player")
         {
+            fun.Play();
+            truck.SetActive(true);
             end = true;
-            bird.SetActive(true);
-            GameManager._instance.Coroutine();
         }
     }
 }

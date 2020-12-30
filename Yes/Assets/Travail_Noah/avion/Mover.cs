@@ -8,7 +8,7 @@ public class Mover : MonoBehaviour
     public Vector3 dir = Vector3.right;
 
     public float speed = 1.0f;
-
+    public List<GameObject> wing;
     public bool grounded = false;
     void Start()
     {
@@ -27,8 +27,18 @@ public class Mover : MonoBehaviour
                 this.gameObject.GetComponent<Movement>().move = false;
             }
         }
-        else 
+        else
+        {
             this.gameObject.GetComponent<Rigidbody>().useGravity=true;
+            if (wing.Count > 0)
+            {
+                wing[0].GetComponent<Wing>().enabled = false;
+                wing[1].GetComponent<Wing>().enabled = false;
+            }
+
+
+        }
+
     }
     private void OnCollisionEnter(Collision collision)
     {
