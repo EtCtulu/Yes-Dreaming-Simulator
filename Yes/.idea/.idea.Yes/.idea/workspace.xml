@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="928f89af-5f21-4a90-b5fd-b656c9bf7297" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Yes/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yes/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Yes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Yes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modèles/World/Barrière/Barrière F.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modèles/World/Barrière/Barrière F.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dream.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dream.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JumpscareHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JumpscareHandler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +51,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/OnMouseHoverText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventActivator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pausemenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/JumpscareHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TPBed.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OnButtonPressTP.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ActivateTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/JumpscareHandler.cs" />
       </list>
     </option>
   </component>
@@ -120,6 +118,7 @@
       <workItem from="1609182577838" duration="17000" />
       <workItem from="1609196023757" duration="5266000" />
       <workItem from="1609234009478" duration="2944000" />
+      <workItem from="1609331825475" duration="671000" />
     </task>
     <servers />
   </component>

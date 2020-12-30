@@ -18,10 +18,10 @@ public class JumpscareHandler : MonoBehaviour
     public IEnumerator Jumpscare()
     {
         yield return new WaitForSeconds(15);
-        Destroy(player);
+        /*Destroy(player);
         camera.SetActive(true);
         Destroy(music);
-        jumpScare.SetActive(true);
+        jumpScare.SetActive(true);*/
         yield return new WaitForSeconds(0.2f);
         Application.Quit();
         
