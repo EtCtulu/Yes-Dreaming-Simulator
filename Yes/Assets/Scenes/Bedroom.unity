@@ -5542,6 +5542,21 @@ PrefabInstance:
       propertyPath: m_Height
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3118384284028032807, guid: d242c61280f301743b8a714141b59df9,
+        type: 3}
+      propertyPath: walkSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3118384284028032807, guid: d242c61280f301743b8a714141b59df9,
+        type: 3}
+      propertyPath: useStamina
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3118384284028032807, guid: d242c61280f301743b8a714141b59df9,
+        type: 3}
+      propertyPath: sprintSpeed
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d242c61280f301743b8a714141b59df9, type: 3}
 --- !u!1 &877984914 stripped
